@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "ES2022",
+        "module": "NodeNext",
+        "noEmit": true,
+        "rootDir": "./assets",
+        "types": [
+            "../../../temp/declarations/cc.custom-macro",
+            "../../../temp/declarations/cc.env",
+            "../../../temp/declarations/cc",
+            "../../../@types/hmr"
+        ],
+    },
+    "include": [
+        "./assets",
+    ]
+}

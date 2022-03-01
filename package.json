@@ -1,0 +1,18 @@
+{
+  "name": "NewProject_1",
+  "type": "3d",
+  "uuid": "577d7b00-26ad-41da-bf1e-4860c537b800",
+  "version": "3.4.1",
+  "creator": {
+    "version": "3.5.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "creator-ts-language-service": "file:../../Dev/Repos/Cocos/editor-3d/packages/creator-ts-language-service",
+    "typescript": "^4.5.5"
+  },
+  "scripts": {
+    "postinstall": "cd hot-server && npm install",
+    "server": "node ./hot-server/index.mjs"
+  }
+}
